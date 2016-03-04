@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 //
 // Variables
 // --------------------------------------------------
@@ -7,18 +8,18 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-// $gray-base:              #000
-// $gray-darker:            lighten($gray-base, 13.5%) // #222
-// $gray-dark:              lighten($gray-base, 20%)   // #333
-// $gray:                   lighten($gray-base, 33.5%) // #555
-// $gray-light:             lighten($gray-base, 46.7%) // #777
-// $gray-lighter:           lighten($gray-base, 93.5%) // #eee
+$gray-base:              #00171E;
+$gray-darker:            darken($gray-base, 1%); // #222
+$gray-dark:              darken($gray-base, 2%)  ; // #333
+$gray:                   #00171E;
+$gray-light:             #777; // #777
+$gray-lighter:           #eee; // #eee
 
-// $brand-primary:         darken(#428bca, 6.5%) // #337ab7
-// $brand-success:         #5cb85c
-// $brand-info:            #5bc0de
-// $brand-warning:         #f0ad4e
-// $brand-danger:          #d9534f
+$brand-primary:         #FFD006; 
+$brand-success:         #007E5B;
+$brand-info:            #197BCC;
+$brand-warning:         #FF9E07;
+$brand-danger:          #B71F54;
 
 
 //== Scaffolding
@@ -26,14 +27,14 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-// $body-bg:               #fff
+$body-bg:               #efefef;
 //** Global text color on `<body>`.
 // $text-color:            $gray-dark
 
 //** Global textual link color.
-// $link-color:            $brand-primary
+$link-color:            $brand-info;
 //** Link hover color set via `darken()` function.
-// $link-hover-color:      darken($link-color, 15%)
+$link-hover-color:      darken($link-color, 15%);
 //** Link hover decoration.
 // $link-hover-decoration: underline
 
@@ -42,13 +43,13 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-// $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif
+$font-family-sans-serif:  'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
 // $font-family-serif:       Georgia, "Times New Roman", Times, serif
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
 // $font-family-base:        $font-family-sans-serif
 
-// $font-size-base:          14px
+$font-size-base:          16px;
 // $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
 // $font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
 
@@ -66,7 +67,7 @@
 
 //** By default, this inherits from the `<body>`.
 // $headings-font-family:    inherit
-// $headings-font-weight:    500
+$headings-font-weight:    700;
 // $headings-line-height:    1.1
 // $headings-color:          inherit
 
@@ -106,9 +107,9 @@
 // $line-height-large:         1.3333333 // extra decimals for Win 8.1 Chrome
 // $line-height-small:         1.5
 
-// $border-radius-base:        4px
-// $border-radius-large:       6px
-// $border-radius-small:       3px
+$border-radius-base:        0;
+$border-radius-large:       0;
+$border-radius-small:       0;
 
 //** Global color for active items (e.g., navs or dropdowns).
 // $component-active-color:    #fff
@@ -152,7 +153,7 @@
 // $btn-default-bg:                 #fff
 // $btn-default-border:             #ccc
 
-// $btn-primary-color:              #fff
+$btn-primary-color:              $gray;
 // $btn-primary-bg:                 $brand-primary
 // $btn-primary-border:             darken($btn-primary-bg, 5%)
 
@@ -368,16 +369,16 @@
 // $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2)
 // $navbar-collapse-max-height:       340px
 
-// $navbar-default-color:             #777
-// $navbar-default-bg:                #f8f8f8
-// $navbar-default-border:            darken($navbar-default-bg, 6.5%)
+$navbar-default-color:             $gray-base;
+$navbar-default-bg:                transparent;
+$navbar-default-border:            darken($navbar-default-bg, 6.5%);
 
 // Navbar links
-// $navbar-default-link-color:                #777
-// $navbar-default-link-hover-color:          #333
-// $navbar-default-link-hover-bg:             transparent
-// $navbar-default-link-active-color:         #555
-// $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%)
+$navbar-default-link-color:                $gray-base;
+$navbar-default-link-hover-color:          #333;
+$navbar-default-link-hover-bg:             lighten($brand-primary, 20%);
+$navbar-default-link-active-color:         $gray;
+$navbar-default-link-active-bg:            $brand-primary;
 // $navbar-default-link-disabled-color:       #ccc
 // $navbar-default-link-disabled-bg:          transparent
 
@@ -388,8 +389,8 @@
 
 // Navbar toggle
 // $navbar-default-toggle-hover-bg:           #ddd
-// $navbar-default-toggle-icon-bar-bg:        #888
-// $navbar-default-toggle-border-color:       #ddd
+$navbar-default-toggle-icon-bar-bg:     $gray;
+$navbar-default-toggle-border-color:       transparent;
 
 
 //=== Inverted navbar
@@ -488,9 +489,9 @@
 //
 //##
 
-// $jumbotron-padding:              30px
+$jumbotron-padding:              0px;
 // $jumbotron-color:                inherit
-// $jumbotron-bg:                   $gray-lighter
+$jumbotron-bg:                   black;
 // $jumbotron-heading-color:        inherit
 // $jumbotron-font-size:            ceil(($font-size-base * 1.5))
 // $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5))
@@ -867,7 +868,5 @@
 // $page-header-border-color:    $gray-lighter
 //** Width of horizontal description list titles
 // $dl-horizontal-offset:        $component-offset-horizontal
-//** Point at which .dl-horizontal becomes horizontal
-// $dl-horizontal-breakpoint:    $grid-float-breakpoint
 //** Horizontal line color.
 // $hr-border:                   $gray-lighter
