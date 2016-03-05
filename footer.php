@@ -28,7 +28,21 @@
         
         <div class="row">
           <div class="col-md-12">
-            <p>&copy; Sheffield Teaching Hospitals NHS Foundation Trust</p>
+            <section id="rpa">
+            <p class="pull-left">
+              
+              <a title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">Home</a> |
+              <a title="" href="<?php echo home_url('/disclaimer-attributions/'); ?>">Disclaimer and Attributions</a> |
+              <a href="#top"> Back to top</a>
+
+            </p>
+            <p class="pull-right">
+              <a href="http://www.sth.nhs.uk" title="Homepage for the Sheffield Teaching Hospitals NHS Foundation Trust" target="_blank">
+                <img src="<?php echo get_template_directory_uri() . '/images/sth-trans.png' ;?>" >
+              </a>
+            </p>
+            <p class="clearfix"></p>
+            </section>
           </div>
         </div>
       </div><!-- .site-info -->
