@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-	 <div id="primary" class="container">
+	 <div id="primary" class="container container-white">
     <div class="row">
       <main id="main" class="col-md-8 col-sm-8" role="main">
 

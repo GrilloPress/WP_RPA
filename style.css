@@ -9127,3 +9127,8 @@ body.modal-open {
 .container-nav {
   border-bottom: 1px solid #efefef;
 }
+
+/* line 1, sass/_widgets.scss */
+.widget_search {
+  margin-top: 1em;
+}
