@@ -42,18 +42,19 @@
 <body <?php body_class(); ?>>
   
   <header role="banner">
-				
+			<nav class="navbar navbar-default navbar-fixed-top" id="top">	
 			<div class="navbar navbar-default">
-				<div class="container">
+				<div class="container container-white container-nav">
           
 					<div class="navbar-header">
             <a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
-						</button>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 					</div>
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
@@ -62,7 +63,7 @@
 
 				</div> <!-- end .container -->
 			</div> <!-- end .navbar -->
-		
+    </nav>
 		</header> <!-- end header -->
   
   
