@@ -43,7 +43,6 @@
   
   <header role="banner">
 			<nav class="navbar navbar-default navbar-fixed-top" id="top">	
-			<div class="navbar navbar-default">
 				<div class="container container-white container-nav">
           
 					<div class="navbar-header">
@@ -62,7 +61,7 @@
 					</div>
 
 				</div> <!-- end .container -->
-			</div> <!-- end .navbar -->
+
     </nav>
 		</header> <!-- end header -->
   

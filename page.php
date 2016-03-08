@@ -13,22 +13,29 @@
 get_header(); ?>
 
 	 <div id="primary" class="container container-white">
-    <div class="row">
+     
+     <section id="hero" class="no-gutter">
+       <?php get_template_part( 'template-parts/hero', 'unit' ); ?>
+     </section>
+     
+     
+     <div class="row">
       <main id="main" class="col-md-7 col-md-offset-1 col-sm-8" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+      <?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+        <?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-			<?php endwhile; // End of the loop. ?>
+      <?php endwhile; // End of the loop. ?>
 
-		  </main><!-- #main -->
-      
+      </main><!-- #main -->
+
       <aside class="col-md-3 col-sm-4">
         <?php get_sidebar(); ?>
       </aside>
       
-	  </div><!-- #primary -->
+	   </div>
+    
   </div>
 
 <?php get_footer(); ?>

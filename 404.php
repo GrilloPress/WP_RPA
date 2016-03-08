@@ -8,6 +8,12 @@
 get_header(); ?>
 
 <div id="primary" class="container">
+  
+  <section id="hero" class="no-gutter">
+       <?php get_template_part( 'template-parts/hero', 'unit' ); ?>
+     </section>
+  
+  
     <div class="row">
       <main id="main" class="col-md-12" role="main">
 
