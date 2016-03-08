@@ -195,7 +195,7 @@ get_header(); ?>
           <h5 class="panel-testimonial-sub-heading"></h5>
           <p>We offer a full-range of additional and complementary services. <a href="<?php echo home_url('/our-services/'); ?>">You can find an extensive listing of our services on our dedicated service page</a>. If you have a specific question about one of our services or want to get in touch with one of our many happy customers, please <a href="<?php echo home_url('/contact-us/#top'); ?>">get in touch with our team via our online form.</a></p>
           <p class="panel-testimonial-footer"></p>
-          <a href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-lg btn-primary">Get in touch</a>
+          <a href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-block btn-info">Get in touch</a>
         </section>
 
       </article>
