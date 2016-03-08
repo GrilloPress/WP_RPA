@@ -20,7 +20,7 @@ get_header(); ?>
      
      
      <div class="row">
-      <main id="main" class="col-md-7 col-md-offset-1 col-sm-8" role="main">
+      <main id="main" class="col-md-5 col-md-offset-1 col-sm-7" role="main">
 
       <?php while ( have_posts() ) : the_post(); ?>
 
@@ -30,7 +30,7 @@ get_header(); ?>
 
       </main><!-- #main -->
 
-      <aside class="col-md-3 col-sm-4">
+      <aside class="col-md-4 col-md-offset-1 col-sm-5">
         <?php get_sidebar(); ?>
       </aside>
       

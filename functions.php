@@ -219,26 +219,40 @@ if( !function_exists( "sth_theme_js" ) ) {
 add_action( 'wp_enqueue_scripts', 'sth_theme_js' );
 
 /**
+ * Remove Jetpack Form CSS
+ */
+add_filter( 'jetpack_implode_frontend_css', '__return_false' );
+function remove_jp_styles() {
+     wp_deregister_style('grunion.css');
+}
+add_action('wp_print_styles', 'remove_jp_styles');
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+remove_action( 'admin_print_styles', 'print_emoji_styles' );
+
+/**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/lib/template-tags.php';
+require get_template_directory() . '/lib/sth_breadcrumbs.php';
 
 /**
  * Bootstrap Walker and Nav Customization 
  */
-require get_template_directory() . '/inc/bootstrap_nav.php';
+require get_template_directory() . '/lib/bootstrap_nav.php';
 
 /**
  * Custom functions that act independently of the theme templates.
  */
-require get_template_directory() . '/inc/extras.php';
+require get_template_directory() . '/lib/extras.php';
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
+require get_template_directory() . '/lib/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
  */
-require get_template_directory() . '/inc/jetpack.php';
+require get_template_directory() . '/lib/jetpack.php';
