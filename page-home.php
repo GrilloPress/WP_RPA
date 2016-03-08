@@ -192,9 +192,10 @@ get_header(); ?>
         </header>
         
         <section class="panel-testimonial-body">
-          <p>Sea te malis persius, est et quem vitae urbanitas, an nam constituam scribentur. Ut debet detracto qui. Nec in vitae intellegat, nam ei euismod propriae placerat.</p>
-          <p class="panel-testimonial-footer">Name of Person - Specific Job Title</p>
-          <a class="" href="#">Get in touch</a>
+          <h5 class="panel-testimonial-sub-heading"></h5>
+          <p>We offer a full-range of additional and complementary services. <a href="<?php echo home_url('/our-services/'); ?>">You can find an extensive listing of our services on our dedicated service page</a>. If you have a specific question about one of our services or want to get in touch with one of our many happy customers, please <a href="<?php echo home_url('/contact-us/#top'); ?>">get in touch with our team via our online form.</a></p>
+          <p class="panel-testimonial-footer"></p>
+          <a href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-lg btn-primary">Get in touch with our team to find out more</a>
         </section>
 
       </article>
