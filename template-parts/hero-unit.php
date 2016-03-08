@@ -27,7 +27,7 @@
         </div>
         
         <div class="col-md-3 col-sm-6 nav-block">
-          <a href="<?php echo home_url('/conact-us/'); ?>">
+          <a href="<?php echo home_url('/contact-us/'); ?>">
             <img width="64" src="<?php echo get_template_directory_uri() . '/images/email19.png' ;?>">  
             <h5>Contact us</h5>
           </a>

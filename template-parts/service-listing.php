@@ -26,7 +26,7 @@
           <li>Ultraviolet light</li>
         </ul>
         <p>As part of one of the largest Medical Physics and Clinical Engineering Departments within one of the leading NHS Teaching Hospitals in the UK, we have have access to specialist electronic, mechanical and software engineering design and fabrication facilities, enabling us to fully support all of our client’s service requirements.</p>
-        <p>For more information about our services, see our <a href="our-services.html#service-index">detailed service listing</a> or get in touch with out team via our online form.</p>
+        <p>For more information about our services, see our <a href="<?php echo home_url('/our-services/#services-listing'); ?>">detailed service listing</a> or get in touch with out team via our online form.</p>
       </section>
     </div>
     
@@ -83,7 +83,7 @@
           <div class="col-md-3 col-sm-6">
              <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                   <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/signpost3.png' ;?>">  
                 </a>
               </div>
@@ -97,7 +97,7 @@
           <div class="col-md-3 col-sm-6">
              <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                  <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/clipboard44.png' ;?>">
                 </a>
               </div>
@@ -113,7 +113,7 @@
           <div class="col-md-3 col-sm-6">
              <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                    <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/portfolio8.png' ;?>">  
                 </a>
               </div>
@@ -127,7 +127,7 @@
            <div class="col-md-3 col-sm-6">
              <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                  <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/open130.png' ;?>"> 
                 </a>
               </div>
@@ -143,7 +143,7 @@
           <div class="col-md-3 col-sm-6">
             <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                    <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/clipboard46.png' ;?>">
                 </a>
               </div>
@@ -157,7 +157,7 @@
           <div class="col-md-3 col-sm-6">
              <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                   <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/information38.png' ;?>">
                 </a>
               </div>
@@ -171,7 +171,7 @@
            <div class="col-md-3 col-sm-6">
              <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                    <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/title2.png' ;?>">  
                 </a>
               </div>
@@ -185,7 +185,7 @@
           <div class="col-md-3 col-sm-6">
              <div class="media">
               <div class="media-left">
-                <a href="#" data-toggle="modal" data-target="#myModal">
+                <a href="<?php echo home_url('/contact-us/#top'); ?>">
                    <img width="84" src="<?php echo get_template_directory_uri() . '/images/png/folders3.png' ;?>">
                 </a>
               </div>
@@ -200,7 +200,7 @@
     
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <a role="button" href="#" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg" data-toggle="modal" data-target="#myModal">Contact us</a>
+          <a role="button" href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
         </div>
       </div>
     </div>
