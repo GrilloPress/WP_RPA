@@ -41,7 +41,7 @@ class Bootstrap_walker extends Walker_Nav_Menu{
    	$attributes  = ! empty( $object->attr_title ) ? ' title="'  . esc_attr( $object->attr_title ) .'"' : '';
    	$attributes .= ! empty( $object->target )     ? ' target="' . esc_attr( $object->target     ) .'"' : '';
    	$attributes .= ! empty( $object->xfn )        ? ' rel="'    . esc_attr( $object->xfn        ) .'"' : '';
-   	$attributes .= ! empty( $object->url )        ? ' href="'   . esc_attr( $object->url        ) .'"' : '';
+   	$attributes .= ! empty( $object->url )        ? ' href="'   . esc_attr( $object->url        ) .'#main"' : '';
    	// if the item has children add these two attributes to the anchor tag
    	if ( $args->has_children ) {
 		  $attributes .= ' class="dropdown-toggle" data-toggle="dropdown"';
