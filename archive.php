@@ -12,7 +12,7 @@ get_header(); ?>
 	<div id="primary" class="container container-white">
     
     <section id="hero" class="no-gutter">
-       <?php get_template_part( 'template-parts/hero', 'unit' ); ?>
+       <?php get_template_part( 'template-parts/shared/hero', 'unit' ); ?>
      </section>
     
     <div class="row">
