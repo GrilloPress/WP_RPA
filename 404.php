@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<div id="primary" class="container">
+<div id="primary" class="container container-white">
   
   <section id="hero" class="no-gutter">
        <?php get_template_part( 'template-parts/hero', 'unit' ); ?>
@@ -15,7 +15,7 @@ get_header(); ?>
   
   
     <div class="row">
-      <main id="main" class="col-md-12" role="main">
+      <main id="main" class="col-md-5 col-md-offset-1 col-sm-7" role="main">
 
 			<section class="error-404 not-found">
 				<header class="page-header">
@@ -26,12 +26,17 @@ get_header(); ?>
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'sth' ); ?></p>
 
 					<?php get_search_form(); ?>
+          
+          <h3 class="widget-title"><?php esc_html_e( 'Sitemap', 'sth' ); ?></h3>
+          <ul>
+              <?php wp_list_pages( array( 'sort_column' => 'menu_order' ) ); ?>
+          </ul>
 
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
 
 					<?php if ( sth_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
 					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'sth' ); ?></h2>
+						<h3 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'sth' ); ?></h3>
 						<ul>
 						<?php
 							wp_list_categories( array(
@@ -47,8 +52,7 @@ get_header(); ?>
 					<?php endif; ?>
 
 					<?php
-						/* translators: %1$s: smiley */
-						$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'sth' ), convert_smilies( ':)' ) ) . '</p>';
+						$archive_content = '<p>' . esc_html__( 'Try looking in the monthly archives.' , 'sth' ) . '</p>';
 						the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
 					?>
 
@@ -58,6 +62,10 @@ get_header(); ?>
 			</section><!-- .error-404 -->
 
 		</main><!-- #main -->
+      
+      <aside class="col-md-4 col-md-offset-1 col-sm-5">
+        <?php get_sidebar(); ?>
+      </aside>
   </div>
 	</div><!-- #primary -->
 

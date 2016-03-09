@@ -18,7 +18,6 @@ get_header(); ?>
        <?php get_template_part( 'template-parts/hero', 'unit' ); ?>
      </section>
      
-     
      <div class="row">
       <main id="main" class="col-md-5 col-md-offset-1 col-sm-7" role="main">
 
@@ -35,6 +34,7 @@ get_header(); ?>
       </aside>
       
 	   </div>
+     
     
   </div>
 
