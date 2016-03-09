@@ -35,6 +35,23 @@ get_header(); ?>
       
 	   </div>
      
+     <?php 
+     
+     if (is_page( 'our-team' )){
+       
+       get_template_part( 'template-parts/shared/team', 'all' );
+       
+     };
+     
+     if (is_page( 'our-services' )){
+       
+       get_template_part( 'template-parts/shared/service', 'directory' );
+       get_template_part( 'template-parts/shared/additional', 'services' );
+       
+     };
+     
+     ?>
+     
     
   </div>
 

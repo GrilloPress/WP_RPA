@@ -1,8 +1,6 @@
-
 <div class="jumbotron">
   <img src="<?php echo get_template_directory_uri() . '/images/radiation-header-full.jpg' ;?>" alt="<?php echo get_bloginfo('description'); ?>" class="img-responsive hidden-xs">
   <img src="<?php echo get_template_directory_uri() . '/images/logo-doc.png' ;?>" alt="<?php echo get_bloginfo('description'); ?>" class="img-responsive visible-xs mobile-header">
-  
     <section class="nav-block-container">
       <div class="row">
         <div class="col-md-3 col-sm-6 nav-block">
@@ -34,5 +32,4 @@
         </div>
     </div>  
   </section>
-  
 </div>
