@@ -56,7 +56,7 @@
             </button>
 					</div>
 
-					<div class="collapse navbar-collapse navbar-responsive-collapse">
+					<div id="navbar" class="collapse navbar-collapse navbar-responsive-collapse">
 						<?php wp_bootstrap_main_nav(); ?>
 					</div>
 
