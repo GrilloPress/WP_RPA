@@ -8829,35 +8829,42 @@ h2 {
   margin-top: 2.5em;
 }
 
-/* line 47, sass/_typography.scss */
+/* line 45, sass/_typography.scss */
+article.page h1 {
+  margin-bottom: 2em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+/* line 59, sass/_typography.scss */
 span.required {
   color: red;
   font-size: 0.8em;
 }
 
-/* line 54, sass/_typography.scss */
+/* line 66, sass/_typography.scss */
 .section-header {
   margin-top: 2.5em;
   text-align: center;
 }
 
-/* line 61, sass/_typography.scss */
+/* line 73, sass/_typography.scss */
 .hero-text {
   margin-bottom: 6em;
 }
 
-/* line 67, sass/_typography.scss */
+/* line 79, sass/_typography.scss */
 .navbar-brand {
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  /* line 74, sass/_typography.scss */
+  /* line 86, sass/_typography.scss */
   .jumbotron {
     margin-left: 0;
     margin-right: 0;
   }
-  /* line 76, sass/_typography.scss */
+  /* line 88, sass/_typography.scss */
   .jumbotron h1 {
     padding-top: 2em;
     font-size: 2em;
@@ -8867,18 +8874,18 @@ span.required {
   }
 }
 @media screen and (max-width: 450px) {
-  /* line 94, sass/_typography.scss */
+  /* line 106, sass/_typography.scss */
   .hero-text {
     margin-bottom: 1em;
   }
 
-  /* line 100, sass/_typography.scss */
+  /* line 112, sass/_typography.scss */
   .navbar-brand {
     width: 230px;
     height: 70px;
   }
 }
-/* line 108, sass/_typography.scss */
+/* line 120, sass/_typography.scss */
 .service-text {
   margin-bottom: 2em;
 }
