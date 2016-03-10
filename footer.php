@@ -13,19 +13,7 @@
 
     <footer id="colophon" class="site-footer" role="contentinfo">
       <div class="site-info container">
-        <div class="row">
-          <div id="widget-footer">
-		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
-		        <?php endif; ?>
-		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
-		        <?php endif; ?>
-		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
-		        <?php endif; ?>
-            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
-		        <?php endif; ?>
-		      </div>
-        </div>
-        
+
         <div class="row">
           <div class="col-md-12">
             <section id="rpa">
@@ -45,7 +33,24 @@
             </section>
           </div>
         </div>
+        
+        <div class="row">
+          <div id="widget-footer">
+		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
+		        <?php endif; ?>
+		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
+		        <?php endif; ?>
+		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
+		        <?php endif; ?>
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
+		        <?php endif; ?>
+		      </div>
+        </div>
+        
       </div><!-- .site-info -->
+      
+      
+      
     </footer><!-- #colophon -->
   </div><!-- #page -->
 
