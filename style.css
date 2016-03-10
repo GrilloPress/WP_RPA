@@ -9185,6 +9185,17 @@ body.modal-open {
   margin-top: 1em;
 }
 
+/* line 7, sass/_widgets.scss */
+#marketing-form {
+  margin-top: 14em;
+}
+@media screen and (max-width: 480px) {
+  /* line 7, sass/_widgets.scss */
+  #marketing-form {
+    margin-top: 0;
+  }
+}
+
 /* line 1, sass/_jetpack.scss */
 .contact-form .clear-form {
   clear: both;
@@ -9269,29 +9280,28 @@ body.modal-open {
 /* line 77, sass/_jetpack.scss */
 .contact-form label span {
   margin-left: 4px;
-  padding: 5px;
   color: red;
   font-size: 0.8em;
 }
 
-/* line 84, sass/_jetpack.scss */
+/* line 83, sass/_jetpack.scss */
 .form-errors .form-error-message {
   color: red;
 }
 
-/* line 88, sass/_jetpack.scss */
+/* line 87, sass/_jetpack.scss */
 .textwidget .contact-form input[type='text'], .textwidget .contact-form input[type='email'], .textwidget .contact-form textarea {
   width: 100%;
   box-sizing: border-box;
   padding: 5px;
 }
 
-/* line 94, sass/_jetpack.scss */
+/* line 93, sass/_jetpack.scss */
 #jetpack-check-feedback-spam {
   margin: 1px 8px 0px 0px;
 }
 
-/* line 98, sass/_jetpack.scss */
+/* line 97, sass/_jetpack.scss */
 .jetpack-check-feedback-spam-spinner {
   display: inline-block;
   margin-top: 7px;
