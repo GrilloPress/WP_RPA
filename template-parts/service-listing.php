@@ -32,46 +32,10 @@
     
     <div class="col-md-4 col-md-offset-1">
       
-     <form id="service-request-form">
-      <div class="form-group">
-        <label for="customerName">Full name <span class="required">(required)</span></label>
-      <input type="text" class="form-control" id="customerName" placeholder="Full Name" required="">
-      </div>
-      <div class="form-group">
-        <label for="jobTitle">Job Title <span class="required">(required)</span></label>
-      <input type="text" class="form-control" id="jobTitle" placeholder="Job Title" required="">
-      </div>
-      <div class="form-group">
-        <label for="customerCompany">Organisation <span class="required">(required)</span></label>
-      <input type="text" class="form-control" id="customerCompany" placeholder="Organization" required="">
-      </div>
-      <div class="form-group">
-        <label for="phoneNumber">Phone Number <span class="required">(required)</span></label>
-      <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number" required="">
-      </div>
-      <div class="form-group">
-        <label for="customerEmail">Email address <span class="required">(required)</span></label>
-        <input type="email" class="form-control" id="customerEmail" placeholder="Email" required="">
-      </div>
-      <div class="form-group">
-        <label for="servicesRequired">Service Requested</label>
-        <select class="form-control" id="servicesRequired">
-        <option>Radiation Protection</option>
-        <option>Service Design &amp; Consultation</option>
-        <option>Quality Assurance</option>
-        <option>Corporate Assurance</option>
-        <option>Project Management</option>
-        <option>Training &amp; Staff Development</option>
-        <option>Ethics Guidance</option>
-        <option>Other</option>
-      </select>
-      </div>
-      <div class="form-group">
-        <label for="customerMessage">Requirements &amp; Further Information</label>
-        <textarea class="form-control" id="customerMessage" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-lg btn-block btn-info">Get in touch</button>
-    </form>
+     <?php 
+      $contact_form = "[contact-form to='andrew.duckworth@sth.nhs.uk' subject='RPA Contact'][contact-field label='Full name' type='name' required='1' placeholder='Full name'/][contact-field label='Job title' type='text' required='1' placeholder='Job title'/][contact-field label='Organisation' type='text' required='1' placeholder='Organisation'/][contact-field label='Phone number' type='text' required='1' placeholder='hone number'/][contact-field label='Email' type='email' required='1' placeholder='Email'/][contact-field label='Service requested' type='select' required='1' options='Radiation Protection,Service Design %26amp; Consultation,Quality Assurance,Corporate Assurance,Project Management,Training %26amp; Staff Development,Ethics Guidance,Other'/][contact-field label='Requirements %26amp; further information' type='textarea' required='1' placeholder='Your requirements'/][/contact-form]";
+      echo do_shortcode( "<section id='contact-form-home'>" . $contact_form . "</section>" ) ;?>
+      
     </div>
   
   <?php get_template_part( 'template-parts/shared/service', 'directory' ) ;?>

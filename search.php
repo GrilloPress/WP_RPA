@@ -7,9 +7,14 @@
 
 get_header(); ?>
 
-	<section id="primary" class="container">
+	<section id="primary" class="container container-white">
+    
+    <section id="hero" class="no-gutter">
+       <?php get_template_part( 'template-parts/shared/hero', 'unit' ); ?>
+     </section>
+    
     <div class="row">
-       <main id="main" class="col-md-8 col-sm-8" role="main">
+      <main id="main" class="col-md-7 col-md-offset-1 col-sm-8" role="main">
 
       <?php if ( have_posts() ) : ?>
 
@@ -41,6 +46,8 @@ get_header(); ?>
 
       </main><!-- #main-->
       <aside class="col-md-4 col-sm-4" role="complimentry">
+        <?php $contact_form = "[contact-form to='andrew.duckworth@sth.nhs.uk' subject='RPA Contact'][contact-field label='Full name' type='name' required='1' placeholder='Full name'/][contact-field label='Job title' type='text' required='1' placeholder='Job title'/][contact-field label='Organisation' type='text' required='1' placeholder='Organisation'/][contact-field label='Phone number' type='text' required='1' placeholder='hone number'/][contact-field label='Email' type='email' required='1' placeholder='Email'/][contact-field label='Service requested' type='select' required='1' options='Radiation Protection,Service Design %26amp; Consultation,Quality Assurance,Corporate Assurance,Project Management,Training %26amp; Staff Development,Ethics Guidance,Other'/][contact-field label='Requirements %26amp; further information' type='textarea' required='1' placeholder='Your requirements'/][/contact-form]";
+              echo do_shortcode( "<section id='search-marketing-form'><h3>Contact us</h3>" . $contact_form . "</section>" ) ;?>
         <?php get_sidebar(); ?>
       </aside>
     </div> <!-- #primary .row -->

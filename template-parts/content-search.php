@@ -26,6 +26,9 @@
 
 	<footer class="entry-footer">
 		<?php sth_entry_footer(); ?>
+    <a href="<?php esc_url( get_permalink() ); ?>">Find out more</a>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+<hr>
 
