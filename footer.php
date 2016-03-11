@@ -20,8 +20,8 @@
             <p class="pull-left">
               
               <a title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">Home</a> |
-              <a title="" href="<?php echo home_url('/disclaimer-attributions/'); ?>">Disclaimer and Attributions</a> |
-              <a href="#top"> Back to top</a>
+              <a title="Disclaimer and Attributions" href="<?php echo home_url('/disclaimer-attributions/'); ?>">Disclaimer and Attributions</a> |
+              <a href="#" title="back to the top of the page"> Back to top</a>
 
             </p>
             <p class="pull-right">
