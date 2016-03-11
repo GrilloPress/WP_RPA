@@ -114,7 +114,7 @@
               </div>
               <div class="media-body">
                 <h4 class="media-heading">Additional Services</h4>
-                <p>We also offer a full-range of additional and complementary services. <a href="#" data-toggle="modal" data-target="#myModal">Get in touch with our team to find out more</a></p>
+                <p>We also offer a full-range of additional and complementary services. <a href="<?php echo home_url('/contact-us/#top'); ?>">Get in touch with our team to find out more</a></p>
               </div>
             </div>
           </div>

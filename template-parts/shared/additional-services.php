@@ -19,7 +19,7 @@
                 </ul>
               </article>
               <footer>
-                <a role="button" href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
+                <a role="button" href="<?php echo home_url('/contact-us/#main'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
               </footer>
             </section>
           </div>
@@ -40,7 +40,7 @@
                 </ul>
               </article>
               <footer>
-                <a role="button" href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
+                <a role="button" href="<?php echo home_url('/contact-us/#main'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
               </footer>
             </section>
           </div>
@@ -67,7 +67,7 @@
                 <p>Quality assurance measurements of equipment calibration will also be performed after major modification or repair.</p>
               </article>
               <footer>
-                <a role="button" href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
+                <a role="button" href="<?php echo home_url('/contact-us/#main'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
               </footer>
             </section>
           </div>
@@ -89,7 +89,7 @@
                 </ul>
               </article>
               <footer>
-                <a role="button" href="<?php echo home_url('/contact-us/#top'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
+                <a role="button" href="<?php echo home_url('/contact-us/#main'); ?>" class="btn btn-lg btn-info btn-block btn-call-out hidden-md hidden-lg">Contact us</a>
               </footer>
             </section>
           </div>
