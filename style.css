@@ -9208,6 +9208,24 @@ body.modal-open {
   }
 }
 
+/* line 1, sass/_wordpress.scss */
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 8, sass/_wordpress.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 15, sass/_wordpress.scss */
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
 /* line 1, sass/_jetpack.scss */
 .contact-form .clear-form {
   clear: both;
