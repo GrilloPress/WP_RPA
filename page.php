@@ -45,6 +45,13 @@ get_header(); ?>
        
      };
      
+     if (is_page( 'about-us' )){
+       
+       get_template_part('template-parts/shared/team', 'preview');
+       echo "<hr>";
+       
+     };
+     
      if (is_page( 'our-services' )){
        
        get_template_part( 'template-parts/shared/service', 'directory' );
