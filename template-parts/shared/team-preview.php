@@ -18,76 +18,77 @@
   <div class="col-md-4 col-md-offset-1 hidden-xs">
     <div class="spacer">
         <div class="row">
-
-
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/giles-morrison.jpg' ;?>">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/giles-morrison.jpg' ;?>" alt="Picture of Mr Giles Morrison, Head of Radiation Protection Services at Sheffield Radiation Protection Assurance">
               </section>
             </div>
 
 
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/mark-singleton.jpg' ;?>">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/mark-singleton.jpg' ;?>" alt="Picture of Mr Mark Singleton, Deputy Head of Radiation Protection Services at Sheffield Radiation Protection Assurance">
+              </section>
+            </div>
+          
+            <div class="col-md-4 col-sm-4">
+              <section class="card-team-member">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/prashant-verma.jpg' ;?>" alt="Picture of Dr Prashant Verma, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
               </section>
             </div>
 
 
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/paul-harris.jpg' ;?>">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/peter-wright.jpg' ;?>" alt="Picture of Dr Peter Wright, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
               </section>
             </div>
 
 
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/chris-ogley.jpg' ;?>">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/tracy-soanes.jpg' ;?>" alt="Picture of Miss Tracy Soanes, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
               </section>
             </div>
 
 
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/tracy-soanes.jpg' ;?>">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/matt-hill.jpg' ;?>" alt="Picture of Mr Matt Hill, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
+              </section>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+              <section class="card-team-member">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/chris-ogley.jpg' ;?>" alt="Picture of Mr Chris Ogley, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
+             </section>
+            </div>
+
+
+            <div class="col-md-4 col-sm-4">
+              <section class="card-team-member">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/mike-tyas.jpg' ;?>" alt="Picture of Mr Mike Tyas, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
+            </section>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+              <section class="card-team-member">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/emily-perry.jpg' ;?>" alt="Picture of Miss Emily Perry, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
               </section>
             </div>
 
 
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/prashant-verma.jpg' ;?>">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/andy-fry.jpg' ;?>" alt="Picture of Mr Andy Fry, Trainee Clinical Scientist at Sheffield Radiation Protection Assurance">
               </section>
             </div>
-
-
+          
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/matt-hill.jpg' ;?>">
+                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/wendy-fish.jpg' ;?>"  alt="Picture of Miss Wendy Fish, Trainee Clinical Scientist at Sheffield Radiation Protection Assurance">
               </section>
             </div>
-
-
-            <div class="col-md-4 col-sm-4">
-              <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/mike-tyas.jpg' ;?>">
-              </section>
-            </div>
-
-            <div class="col-md-4 col-sm-4">
-              <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/andy-fry.jpg' ;?>">
-              </section>
-            </div>
-
-
-            <div class="col-md-4 col-sm-4">
-              <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/wendy-fish.jpg' ;?>">
-              </section>
-            </div>
-
 
       </div>
     </div>
