@@ -75,14 +75,6 @@
               </section>
             </div>
 
-
-            <div class="col-md-4 col-sm-4">
-              <section class="card-team-member">
-                <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/mark-williams.jpg' ;?>">
-              </section>
-            </div>
-
-
             <div class="col-md-4 col-sm-4">
               <section class="card-team-member">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/andy-fry.jpg' ;?>">
