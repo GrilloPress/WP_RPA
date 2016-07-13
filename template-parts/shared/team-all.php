@@ -4,7 +4,7 @@
         
         <div class="row">
           
-          <section id="giles-morrison" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="giles-morrison" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/giles-morrison.jpg' ;?>" alt="Picture of Mr Giles Morrison, Head of Radiation Protection Services at Sheffield Radiation Protection Assurance">
@@ -21,7 +21,7 @@
           </section>
           
           
-          <section id="mark-singleton" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="mark-singleton" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/mark-singleton.jpg' ;?>" alt="Picture of Mr Mark Singleton, Deputy Head of Radiation Protection Services at Sheffield Radiation Protection Assurance">
@@ -37,7 +37,7 @@
             </div>
           </section>
           
-          <section id="prashant-verma" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="prashant-verma" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/prashant-verma.jpg' ;?>" alt="Picture of Dr Prashant Verma, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -46,11 +46,12 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <h4>Dr Prashant Verma</h4>
                 <p>Registered Clinical Scientist: Lead for Non-ionising Radiation including Ultrasound, Lasers &amp; Ultraviolet light sources </p>
+                <p></p>
               </div>
             </div>
           </section>
           
-          <section id="peter-wright" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="peter-wright" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/peter-wright.jpg' ;?>" alt="Picture of Dr Peter Wright, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -59,11 +60,15 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <h4>Dr Paul Wright</h4>
                 <p>Registered Clinical Scientist: Lead for Magnetic Resonance Imaging &amp; MR Safety Expert</p>
+                <p></p>
               </div>
             </div>
           </section>
           
-          <section id="tracy-soanes" class="card-team-member card-full col-md-3 col-sm-4">       
+        </div>
+        <div class="row">
+          
+          <section id="tracy-soanes" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/tracy-soanes.jpg' ;?>" alt="Picture of Miss Tracy Soanes, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -72,11 +77,12 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <h4>Miss Tracy Soanes</h4>
                 <p>Registered Clinical Scientist: Accredited Radiation Protection Adviser (Radioactive Substances, Radiotherapy &amp; Radiosurgery) and Accredited Radioactive Waste Adviser</p>
+                <p></p>
               </div>
             </div>
           </section>
           
-          <section id="matt-hill" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="matt-hill" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/matt-hill.jpg' ;?>" alt="Picture of Mr Matt Hill, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -90,7 +96,7 @@
           </section>
           
           
-          <section id="paul-harris" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="paul-harris" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/paul-harris.jpg' ;?>" alt="Picture of Dr Paul Harris, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -105,7 +111,7 @@
           
           
           
-          <section id="chris-ogley" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="chris-ogley" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/chris-ogley.jpg' ;?>" alt="Picture of Mr Chris Ogley, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -120,7 +126,12 @@
             </div>
           </section>
           
-          <section id="mike-tyas" class="card-team-member card-full col-md-3 col-sm-4">       
+          </div>
+        <div class="row">
+          
+        
+          
+          <section id="mike-tyas" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/mike-tyas.jpg' ;?>" alt="Picture of Mr Mike Tyas, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -133,7 +144,7 @@
             </div>
           </section>
           
-          <section id="emily-perry" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="emily-perry" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/emily-perry.jpg' ;?>" alt="Picture of Miss Emily Perry, Registered Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -146,7 +157,7 @@
             </div>
           </section>
           
-          <section id="andy-fry" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="andy-fry" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/andy-fry.jpg' ;?>" alt="Picture of Mr Andy Fry, Trainee Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -159,7 +170,7 @@
             </div>
           </section>
           
-          <section id="wendy-fish" class="card-team-member card-full col-md-3 col-sm-4">       
+          <section id="wendy-fish" class="card-team-member card-full col-md-3 col-sm-3">       
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-6">
                 <img class="img-responsive" width="100%" src="<?php echo get_template_directory_uri() . '/images/team/wendy-fish.jpg' ;?>"  alt="Picture of Miss Wendy Fish, Trainee Clinical Scientist at Sheffield Radiation Protection Assurance">
@@ -171,9 +182,9 @@
               </div>
             </div>
           </section>
+
+          </div>
           
-          
-        </div>
       </div>
     </div>
     
